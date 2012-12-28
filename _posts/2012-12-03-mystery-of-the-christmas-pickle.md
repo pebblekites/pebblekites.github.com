@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Mystery of the Christmas Pickle
-category: this is a long category
+category: Another Category
 summary:  It’s a strange juxtaposition- an ornament in the shape of a pickle hanging in your festively decorated Christmas tree. The Christmas pickle is a beloved holiday tradition for some, but one with very murky origins.
 mainimage: /contents/sofa.jpg
 author: Aparna
