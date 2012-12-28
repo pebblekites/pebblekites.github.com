@@ -1,0 +1,6 @@
+---
+layout: nil
+---
+{% include css/normalize.min.css %}
+{% include css/icons.css %}
+{% include css/main.css %}

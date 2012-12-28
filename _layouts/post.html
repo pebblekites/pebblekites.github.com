@@ -1,0 +1,36 @@
+---
+layout: default
+templatename: article-page
+---
+<div id="page-content" class="clearfix">
+  <article id="article-body">
+    <header>
+      <h1>{{ page.title }}</h1>
+      <aside class="info">
+        Posted On {{ page.date | date_to_string }}
+        by <span>{{ page.author }}</span>
+        in <a href="/categories.html#{{ page.category | replace:' ','-'}}">{{ page.category }}</a>
+      </aside>
+    </header>
+    {{ content }}
+    <section id="comments">
+      <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </section>
+  </article>
+  <nav id="secondary-nav">
+    {% include share_buttons %}
+    {% include category_list %}
+    {% include archive_list %}
+  </nav>
+</div>
+
+<script type="text/javascript">
+    var disqus_shortname = 'pebblekites-blog';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>

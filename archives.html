@@ -1,0 +1,26 @@
+---
+title: Archives
+layout: default
+---
+<div id="page-content" class="clearfix">
+  <h1>The Archives</h1>
+  {% assign current_month_year = "" %}
+  {% for post in site.posts %}
+    {% capture this_month_year %}{{ post.date | date: "%B %Y" }}{% endcapture %}
+    {% capture this_month_year_id %}{{ post.date | date: "%B-%Y" }}{% endcapture %}
+    {% if current_month_year != this_month_year %}
+      {% unless forloop.first %}
+        </ul>
+      {% endunless%}
+      <ul class="arc-per-month-list clearfix">
+        <li class="arc-month-col"><h2 id="{{ this_month_year_id }}">{{ this_month_year }}</h2></li>
+      {% assign current_month_year = this_month_year %}
+    {% endif %}
+
+    <li class="arc-post-col"><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+    {% if forloop.last %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+---
+<article id="page-content">
+  <section id="articles">
+    {% for post in site.posts limit: 10  %}
+    <article class="{% if forloop.first %} first {% endif%} article-summary clearfix {% if forloop.last %} last {% endif%}">
+      <section class="story-image">
+        <img src="{{ post.mainimage }}" alt="" class="main-image">
+      </section>
+      <h1><a href="{{ post.url }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
+      <p>
+        {{ post.summary}}
+      </p>
+      <aside class="summary">
+       <section class="info">
+        On {{ post.date | date_to_string }}
+        by <span>{{ post.author }}</span>
+        in <a href="/categories.html#{{ post.category | replace:' ','-'}}">{{ post.category }}</a>
+       </section>
+      </aside>
+    </article>
+    {% endfor %}
+    <nav id="secondary-nav">
+      <span class="spacer">&nbsp;</span> <!-- lame! :( -->
+      {% include share_buttons %}
+      {% include category_list %}
+      {% include archive_list %}
+    </nav>
+  </section>
+</article>

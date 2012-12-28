@@ -1,0 +1,7 @@
+<section id="share">
+  <a class="icon facebook" title="Share this page on Facebook" href="#facebook">#</a>
+  <a class="icon pinterest" title="Pin this page on Pinterest" href="#pinterest">!</a>
+  <a class="icon twitter" title="Share this page on twitter" href="#twitter">"</a>
+  <a class="icon feed" title="Subscribe to this blog" href="#feed">$</a>
+  <a class="icon mail" title="Subscribe to this blog using email" href="#mail">%</a>
+</section>

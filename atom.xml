@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>PebbleKites blog</title>
+ <link href="http://blog.pebblekites.com/atom.xml" rel="self"/>
+ <link href="http://blog.pebblekites.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://blog.pebblekites.com/</id>
+ <author>
+   <name>PebbleKites blog</name>
+   <email>team@pebblekites.com</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://blog.pebblekites.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://blog.pebblekites.com{{ post.id }}</id>
+   <content type="html">{{ post.content | replace:"='/","='http://blog.pebblekites.com/" | replace:'="/','="http://blog.pebblekites.com/' | xml_escape }}</content>
+   <author>
+    <name>{{ post.author | capitalize }}</name>
+    <email>team@pebblekites.com</email>
+  </author>
+ </entry>
+ {% endfor %}
+
+</feed>
