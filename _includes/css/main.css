@@ -114,7 +114,7 @@ section#share                       { font-size: 2.5em; margin-top: .5em; margin
 #comments                           { margin-top: 5em;}
 
 /* archives page */
-.arc-per-month-list                 { list-style: none; padding: 0; margin-left: 0; margin-bottom: 3em;  }
+.arc-per-month-list                 { list-style: none; padding: 0; margin-left: 0; margin-bottom: 1em;  }
 .arc-per-month-list h2              { margin: 1em 0 .4em 0 }
 .arc-per-month-list li              { line-height: 2em; }
 .arc-per-month-list a               { border: 0; color: #0192B5 }
