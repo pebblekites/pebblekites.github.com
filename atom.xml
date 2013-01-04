@@ -23,7 +23,7 @@ layout: nil
    <content type="html">{{ post.content | replace:"='/","='http://blog.pebblekites.com/" | replace:'="/','="http://blog.pebblekites.com/' | xml_escape }}</content>
    <author>
     <name>{{ post.author | capitalize }}</name>
-    <email>team@pebblekites.com</email>
+    <email>team+{{ post.author }}@pebblekites.com</email>
   </author>
  </entry>
  {% endfor %}

@@ -109,7 +109,7 @@ section#share                       { font-size: 2.5em; margin-top: .5em; margin
 #article-body header h1             { margin-bottom: 0; clear:both; }
 #article-body header                { margin-bottom: 3em; }
 #article-page #page-content         { margin-bottom: 0; }
-#article-body img                   { max-width: 95%; margin: 0 auto; display: block;}
+#article-body img                   { max-width: 100%; margin: 0 auto; display: block;}
 #article-page section#share         { margin-top: .2em;}
 #comments                           { margin-top: 5em;}
 
@@ -120,7 +120,7 @@ section#share                       { font-size: 2.5em; margin-top: .5em; margin
 .arc-per-month-list a               { border: 0; color: #0192B5 }
 /*.arc-post-col                       { margin-left: 6em; }*/
 
-
+.photo-credit                       { font-size: .8em; color:#999;}
 
 /* ruler */
 

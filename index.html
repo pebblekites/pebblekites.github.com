@@ -7,7 +7,7 @@ title: Home
     {% for post in site.posts limit: 10  %}
     <article class="{% if forloop.first %} first {% endif%} article-summary clearfix {% if forloop.last %} last {% endif%}">
       <section class="story-image">
-        <img src="{{ post.mainimage }}" alt="" class="main-image">
+        <img src="/contents/{% if forloop.first %}full{% else %}thumb{% endif%}/{{ post.mainimage }}" alt="" class="main-image">
       </section>
       <h1><a href="{{ post.url }}" title="Read {{ post.title }}">{{ post.title }}</a></h1>
       <p>
