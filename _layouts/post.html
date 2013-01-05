@@ -5,7 +5,7 @@ templatename: article-page
 <div id="page-content" class="clearfix">
   <article id="article-body">
     <header>
-      <h1>{{ page.title }}</h1>
+      <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
       <aside class="info">
         Posted On {{ page.date | date_to_string }}
         by <span>{{ page.author }}</span>
@@ -27,7 +27,15 @@ templatename: article-page
 </div>
 
 <script type="text/javascript">
+    function disqus_config() {
+      this.callbacks.onNewComment = [
+        function(comment) {
+          _gaq.push(['_trackEvent', 'UserActivity', 'NewComment', '{{ page.id }}']);
+        }
+      ];
+    }
     var disqus_shortname = 'pebblekites-blog';
+    var disqus_identifier = '{{ page.id }}';
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
