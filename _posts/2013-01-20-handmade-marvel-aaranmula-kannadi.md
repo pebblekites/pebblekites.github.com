@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Handmade Marvel : The Aranmula Kannadi"
+title: "A Handmade Marvel: The Aranmula Kannadi"
 category: History
 summary:  In the lush green state of Kerala, by the waters of the river Pamba, there is a small village called Aranmula. Here was born a handcrafted marvel known as the Aranmula Kannadi. “Kannadi”, in the local language Malayalam means “mirror”. What is so special about the Aranmula mirror?
 mainimage: 20130120-aranmula-mirror-full-home.jpg
