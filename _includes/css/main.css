@@ -106,7 +106,8 @@ section#share                       { font-size: 2.5em; margin-top: .5em; margin
 #article-body                       { width: 60%; float:left; padding-right:3em; border-right: 1px solid #ccc; padding-bottom: 3em;}
 #article-page #secondary-nav        { width: 30%; float: right; padding-left: 3em; padding-top: 2.4em; }
 #article-page aside.info            { color: #aaa; margin-top: 0em; text-transform: uppercase; font-size: .8em; letter-spacing: 2px; }
-#article-body header h1             { margin-bottom: 0; clear:both; }
+#article-body header a              { border: 0; }
+#article-body header h1             { margin-bottom: 0.2em; clear:both; line-height: 1em; color:#0192B5;}
 #article-body header                { margin-bottom: 3em; }
 #article-page #page-content         { margin-bottom: 0; }
 #article-body img                   { max-width: 100%; margin: 0 auto; display: block;}
