@@ -13,6 +13,8 @@ I was particularly inspired by a beautiful hand-made gift that one of my colleag
 
 ##Materials you need
 
+![Materials you need](/contents/full/20130202-frame-starting.jpg)
+
 1. A desktop calendar
 2. White Glue
 3. Craft Knife
@@ -22,7 +24,7 @@ I was particularly inspired by a beautiful hand-made gift that one of my colleag
 7. OHP (Transparent Paper)
 8. Beads, mirrors, handmade flowers or any decorative  item of your choice.
 
-![Materials you need](/contents/full/20130202-frame-starting.jpg)
+
 
 <br />
 
@@ -30,7 +32,7 @@ I was particularly inspired by a beautiful hand-made gift that one of my colleag
 
 1\. On each pattern paper, mark the outline of the photo of your choice. You can turn the paper upside down and draw the outline, like I have done here. Using a craft knife, cut through the outline and remove the rectangular block. 
 
-![Materials you need](/contents/full/20130202-frame-trace-outline.jpg)
+![Tracing the outline](/contents/full/20130202-frame-trace-outline.jpg)
 
 When you are done, this is what you will get.  It will be a good idea to cut a
 10cmx8cm from the OHP (transparent paper) and stick it over the cut area. This will protect your photo from getting ruined. Unfortunately, I didn’t have it with me and I haven’t used it for this photo frame.
