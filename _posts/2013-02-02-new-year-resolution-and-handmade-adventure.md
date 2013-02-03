@@ -3,6 +3,7 @@ layout: post
 title: "My New Year Resolution and a \"Handmade\" Adventure"
 category: DIY Projects
 summary:  As always, I had a new set of resolutions for 2013 also. The New Year certainly brings out our best intentions, but most of the times, these resolutions don’t make it beyond the first couple of days. This year I targeted myself to what seemed a doable resolution – "go handmade". 
+permalink: /DIY-Projects/2013/02/02/new-year-resolution-and-handmade-adventure.html
 mainimage: 20130202-frame-final(home).jpg
 author: Aparna
 ---
