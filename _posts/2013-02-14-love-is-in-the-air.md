@@ -31,4 +31,4 @@ My husband who is my partner in everything I make and do made this assignment ev
 
 ![heart-shaped easel card](/contents/full/20130214-4.jpg)
 
-For more cool stuff from Rohini, check out her blog [PrettyAsPaper.blogspot.com](http://prettyaspaper.blogspot.in)
+For more cool stuff from Rohini, check out her blog [prettyaspaper.blogspot.in](http://prettyaspaper.blogspot.in)
