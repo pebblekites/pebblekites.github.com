@@ -10,8 +10,8 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
   <meta property="og:site_name" content="Pebble Kites - Blog"/>
-  {% capture desc %}{{ page.summary | replace '"':'&quot;' }}{% endcapture %}
-  {% capture title %}{{ page.title | replace '"':'&quot;' }}{% endcapture %}
+  {% capture desc %}{{ page.summary | replace: '"':'&quot;' }}{% endcapture %}
+  {% capture title %}{{ page.title | replace: '"':'&quot;' }}{% endcapture %}
   {% if page.title %}<meta property="og:title" content="{{ title }}"/>{% endif %}
   {% if page.layout == 'post' %}<meta property="og:type" content="article"/>
   {% else %}<meta property="og:type" content="blog"/>{% endif %}
