@@ -10,11 +10,12 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
   <meta property="og:site_name" content="Pebble Kites - Blog"/>
+  {% capture desc %}{{ page.summary | replace '"':'&quot;' }}{% endcapture %}
   {% if page.title %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
   {% if page.layout == 'post' %}<meta property="og:type" content="article"/>
   {% else %}<meta property="og:type" content="blog"/>{% endif %}
   {% if page.mainimage %}<meta property="og:image" content="http://blog.pebblekites.com/contents/full/{{ page.mainimage }}"/>{% endif %}
-  {% if page.summary %}<meta property="og:description" content="{{ page.summary }}"/>{% endif %}
+  {% if page.summary %}<meta property="og:description" content="{{ desc }}"/>{% endif %}
   {% if page.url %}<meta property="og:url" content="http://blog.pebblekites.com{{ page.url }}"/>{% endif %}
   <meta property="fb:app_id" content="217687618370479" />
   <link rel="stylesheet" href="/css/all.css">
