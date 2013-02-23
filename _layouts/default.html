@@ -9,6 +9,14 @@
   <title>{% if page.title %} {{ page.title }} - {% endif %} Pebble Kites : Celebrating Handmade</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
+  <meta property="og:site_name" content="Pebble Kites - Blog"/>
+  {% if page.title %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
+  {% if page.layout == 'post' %}<meta property="og:type" content="article"/>
+  {% else %}<meta property="og:type" content="blog"/>{% endif %}
+  {% if page.mainimage %}<meta property="og:image" content="/contents/full/{{ page.mainimage }}"/>{% endif %}
+  {% if page.summary %}<meta property="og:description" content="{{ page.summary }}"/>{% endif %}
+  {% if page.url %}<meta property="og:url" content="http://blog.pebblekites.com{{ page.url }}"/>{% endif %}
+  <meta property="fb:admins" content="100000283009090,1727096739" />
   <link rel="stylesheet" href="/css/all.css">
   <link href="http://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="PebbleKites blog" type="application/atom+xml" />
