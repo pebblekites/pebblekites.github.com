@@ -11,7 +11,8 @@
   <meta name="viewport" content="width=device-width">
   <meta property="og:site_name" content="Pebble Kites - Blog"/>
   {% capture desc %}{{ page.summary | replace '"':'&quot;' }}{% endcapture %}
-  {% if page.title %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
+  {% capture title %}{{ page.title | replace '"':'&quot;' }}{% endcapture %}
+  {% if page.title %}<meta property="og:title" content="{{ title }}"/>{% endif %}
   {% if page.layout == 'post' %}<meta property="og:type" content="article"/>
   {% else %}<meta property="og:type" content="blog"/>{% endif %}
   {% if page.mainimage %}<meta property="og:image" content="http://blog.pebblekites.com/contents/full/{{ page.mainimage }}"/>{% endif %}
